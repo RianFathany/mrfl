@@ -1,0 +1,189 @@
+/*Background*/
+.header-bg-default{
+    background: #0a3352;
+    background: -moz-linear-gradient(-45deg, #249885  0%, #0b3e63  100%);
+    background: -webkit-linear-gradient(-45deg, #249885  0%,#0b3e63  100%);
+    background: linear-gradient(135deg, #249885  0%,#0b3e63  100%);
+}
+.bg-transparent{
+    background-color: transparent !important;
+}
+.bg-grey-clear{
+    background: #eeeeee;
+    background: -moz-linear-gradient(-45deg, #eeeeee 0%, #cccccc 100%);
+    background: -webkit-linear-gradient(-45deg, #eeeeee 0%,#cccccc 100%);
+    background: linear-gradient(135deg, #eeeeee 0%,#cccccc 100%);
+}
+
+/*Navbar*/
+/*Navbar background*/
+.black-transparent{
+    /*background: #00000078;*/
+    background: #000000d6;
+    border:  0!important;
+    color: whitesmoke !important;
+}
+.black-cstm{
+    background: #2d2d2d;
+    border:  0!important;
+    color: whitesmoke !important;
+}
+/*Navbar background*/
+.header-title-cstm{
+    font-size: 30px;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #dedede;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.75);
+    font-family: 'advent_prosemibold';
+}
+.header-title-cstm:hover{
+    color: white;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.75);
+}
+.header-title-cstm:focus{
+    color: white;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.75);
+}
+.header-shadow-cstm{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.55);
+}
+
+.navbar-menu-cstm-a{
+    /*background: #2d2d2d !important;*/
+    background: transparent !important;
+    color: #c6c6c6 !important;
+}
+.navbar-menu-cstm-a:hover{
+    color: #ffffff !important;
+    text-shadow: 0px 0px 14px rgba(255,255,255,0.5);
+}
+.navbar-menu-cstm-a:focus{
+    color: #ffffff !important;
+    text-shadow: 0px 0px 14px rgba(255,255,255,0.5);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent!important;
+    border:0px!important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 10px!important;
+}
+
+.title-2{
+    /*background: #7b38699c;*/
+    background: #3f4c6b;
+    background: -moz-linear-gradient(45deg, #37425de0 0%, #ee596c75 100%);
+    background: -webkit-linear-gradient(45deg, #37425de0 0%,#ee596c75 100%);
+    background: linear-gradient(45deg, #37425de0 0%,#ee596c75 100%);
+    padding: 1px 5px 1px 10px;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0,0,0,1);
+    font-family: 'advent_prosemibold';
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+/*Sidebar*/
+.profile-icon-cstm{
+    margin-bottom: 5px;
+    margin-left: 3px;
+    font-size: 25px;
+    color: white;
+}
+.profile-info-cstm{
+    margin-top: -6px;
+    font-size: 17px;
+    font-family: 'advent_prosemibold';
+    text-shadow: 0px 2px 3px rgba(0,0,0,1);
+}
+
+/*Panel*/
+.row-cstm{
+    margin-left: -25px !important;
+    margin-right: -25px !important;
+}
+
+.box-header-cstm{
+    background: #e8e8e8;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-cstm{
+    background: #dededea3 !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    margin-left: -16px !important;
+}
+
+.carousel-control.right {
+    right: 20px;
+    left: auto;
+}
+
+/*Font*/
+.advent-cstm{
+    font-family: 'advent_prosemibold';
+}
+
+/*Modal*/
+.modal-content-cstm{
+    border-radius:7px !important;
+}
+.modal-header-cstm{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #569679;
+    color: white;
+}
+
+/*Media*/
+@media screen and (min-width: 990px){
+    .top-content-cstm{
+        margin-top: 25px;
+    }
+    .top-content-cstm-b{
+        margin-top: 15px;
+    }
+}
+.carousel-inner-cstm{
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+}
+
+.centerImage img{
+    margin: auto;
+}
+.centerImage .item{
+    background: #000000;
+}
+
+.forText{
+    position: relative;
+}
+.forText .theText{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    left: 5%;
+    background: #19191936;
+    padding: 10px 12px 10px 10px;
+    text-shadow: 0px 1px 3px rgba(0,0,0,1);
+    font-family: 'advent_prosemibold';
+    font-size: 18px;
+}
+.forText .theText:hover{
+    background: #69696936;
+    cursor: pointer;
+}
+
+
+
